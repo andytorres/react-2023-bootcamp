@@ -1,0 +1,18 @@
+.Pokedex{
+    &.Pokedex-winner{
+        background-color: #ca4646;
+        border-radius: 10px;
+        border: 2px solid #a90202;
+    }
+    > h4{
+        margin-bottom: 0;
+    }
+    > div{
+        display: grid;    
+        align-content: center;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        column-gap: 20px;
+        row-gap: 20px;
+        padding: 30px;
+    }
+}
